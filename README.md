@@ -1,6 +1,6 @@
 # installer-rtl8821ce
-Installer for controller RTL8821ce Wireless Network Adapter Realtek for Debian/Ubuntu
-Driver by Tomas Pinho
+Installer for controller RTL8821ce Wireless Network Adapter Realtek for Debian/Ubuntu<br>
+Driver by Tomas Pinho<br>
 Installer by Esteban Buror
 
 <b>Important</b>
