@@ -5,10 +5,9 @@ Installer by [Esteban Buror](https://github.com/aburgoaor)
 
 ## Important
 
-### Require Git
+### Require Git and Python 3
 ` sudo apt install git `
 
-### and Python 3
 ` sudo apt install python3 `
 
 ## Installation
