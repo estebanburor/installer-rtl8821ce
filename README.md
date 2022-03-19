@@ -5,13 +5,14 @@ Installer by [Esteban Buror](https://github.com/aburgoaor)
 
 ## Important
 
-Require git
-> sudo apt install git <
-and Python 3
-> sudo apt install python3 <
+### Require Git
+` sudo apt install git `
+
+### and Python 3
+` sudo apt install python3 `
 
 ## Installation
 
 1. Give execute permissions to the file (chmod +x installer-rtl8821ce)
 2. Execute file whit
-> ./installer-rtl8821ce
+` ./installer-rtl8821ce `
