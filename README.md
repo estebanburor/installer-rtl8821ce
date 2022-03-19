@@ -1,13 +1,17 @@
 # installer-rtl8821ce
 Installer for controller RTL8821ce Wireless Network Adapter Realtek for Debian/Ubuntu<br>
-Driver by Tomas Pinho<br>
-Installer by Esteban Buror
+Driver by [Tomas Pinho](https://github.com/tomaspinho)<br>
+Installer by [Esteban Buror](https://github.com/aburgoaor)
 
-<b>Important</b>
+## Important
 
-Require git and python3
+Require git
+> sudo apt install git <
+and Python 3
+> sudo apt install python3 <
 
-<b>Installation</b>
+## Installation
 
-1.- Give execute permissions to the file (chmod +x installer-rtl8821ce)<br>
-2.- Execute file whit ./installer-rtl8821ce
+1. Give execute permissions to the file (chmod +x installer-rtl8821ce)
+2. Execute file whit
+> ./installer-rtl8821ce
