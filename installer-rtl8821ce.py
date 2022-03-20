@@ -20,14 +20,17 @@ if value == "y" or value == "Y" or value == "s" or value == "S":
 
 	os.system("clear")
 	print(info)
-	print("\n[+] Installing dirver...")
+	print("\n[+] Installing driver...")
 	os.chdir("rtl8821ce/")
+
+
+	# REALIZA LA INSTALACION DEL CONTROLADOR
 
 	os.system("clear")
 	print(info)
 	print("\n[+] Installation complete..")
 	reboot = input("[+] Do you want restart now? (y or n) > ")
-	if reboot == "y" or value == "Y" or value == "s" or value == "S":
+	if reboot == "y" or reboot == "Y" or reboot == "s" or reboot == "S":
 		print("[+] Thanks to install, enjoy!\n[+] Reestarting...")
 		os.system("reboot")
 	else:
