@@ -10,7 +10,7 @@ print(info)
 print("[+] Driver by Tomas Pinho -> https://github/tomaspinho")
 print("[+] Installer by Esteban Buror -> https://github/aburgoaor\n")
 
-value = input("[+] Want to proceed with the installation? (y or n) > ")
+value = input("[+] Want to proceed with the installation? (y or n): ")
 
 if value == "y" or value == "Y" or value == "s" or value == "S":
 	os.system("clear")
@@ -29,7 +29,7 @@ if value == "y" or value == "Y" or value == "s" or value == "S":
 	os.system("clear")
 	print(info)
 	print("\n[+] Installation complete..")
-	reboot = input("[+] Do you want restart now? (y or n) > ")
+	reboot = input("[+] Do you want restart now? (y or n): ")
 	if reboot == "y" or reboot == "Y" or reboot == "s" or reboot == "S":
 		print("[+] Thanks to install, enjoy!\n[+] Reestarting...")
 		os.system("reboot")
