@@ -32,7 +32,9 @@ if value == "y" or value == "Y" or value == "s" or value == "S":
 		print("[+] Thanks to install, enjoy!\n[+] Reestarting...")
 		os.system("reboot")
 	else:
-		print("[+] Thanks to install, enjoy!")
+		os.system("clear")
+		print(info)
+		print("\n[+] Thanks to install, enjoy!")
 
 else:
 	os.system("clear")
