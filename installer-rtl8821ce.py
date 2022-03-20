@@ -9,7 +9,7 @@ info = "[+] Realtek Semiconductor Co., Ltd\n\
 [+] Installer of RTL8821CE for Debian-based distributions"
 
 print(info) 
-print("[+] Driver by Tomas Pinho -> https://github/tomaspinho")
+print("[+] Controller by Tomas Pinho -> https://github/tomaspinho")
 print("[+] Installer by Esteban Buror -> https://github/aburgoaor\n")
 
 value = input("[+] Want to proceed with the installation? (y or n): ")
