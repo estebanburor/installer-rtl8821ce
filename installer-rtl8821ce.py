@@ -14,7 +14,7 @@ print("[+] Installer by Esteban Buror -> https://github/aburgoaor\n")
 
 value = input("[+] Want to proceed with the installation? (y or n): ")
 
-if value == "y" or value == "Y" or value == "s" or value == "S":
+if value.lower() == "y" or value.lower() == "s":
 	os.system("clear")
 	print(info)
 	print("\n[+] Downloading driver rtl8821ce...")
@@ -30,7 +30,7 @@ if value == "y" or value == "Y" or value == "s" or value == "S":
 	print(info)
 	print("\n[+] Installation complete...")
 	reboot = input("[+] Do you want restart now? (y or n): ")
-	if reboot == "y" or reboot == "Y" or reboot == "s" or reboot == "S":
+	if reboot.lower() == "y" or reboot.lower() == "s":
 		print("[+] Thanks to install, enjoy!\n[+] Reestarting...")
 		os.system("reboot")
 	else:
